@@ -23,4 +23,11 @@ namespace banana {
     void print_display() {
         uBit.display.scroll(":)");
     }
+
+    //%
+    int32_t getTempC_() {
+        uint16_t data = i2c.read(0x48, 0x00, 2);
+        int32_t tempC = (data >> 5) * 0.125;
+        return tempC;
+    }
 }

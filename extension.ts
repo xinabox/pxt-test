@@ -47,4 +47,12 @@ namespace banana {
         // Valid function for simulator
         return;
     }
+
+    //% blockId=get_tempC
+    //% block="getTempC"
+    //% shim=banana::getTempC_
+    export function getTempC(): number {
+        // Valid function for simulator
+        return;
+    }
 }
