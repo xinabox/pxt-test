@@ -45,6 +45,6 @@ namespace banana {
     //% shim=banana::print_display
     export function printDisplay(s: number): number{
         // Valid function for simulator
-        return s
+        return s;
     }
 }

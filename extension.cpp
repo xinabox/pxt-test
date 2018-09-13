@@ -22,7 +22,7 @@ namespace banana {
 
     //%
     int print_display(int s) {
-        display.print(s);
+        display.scroll(":)");
         return s
     }
 }
