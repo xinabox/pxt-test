@@ -45,5 +45,6 @@ namespace banana {
     //% shim=banana::print_display
     export function printDisplay(): void{
         // Valid function for simulator
+        return;
     }
 }
