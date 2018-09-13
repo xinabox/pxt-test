@@ -23,5 +23,6 @@ namespace banana {
     //%
     void print_display(void) {
         display.print("S");
+        return;
     }
 }
