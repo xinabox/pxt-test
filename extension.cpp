@@ -21,7 +21,8 @@ namespace banana {
     }
 
     //%
-    void print_display() {
-        display.print("S");
+    int print_display(int s) {
+        display.print(s);
+        return s
     }
 }
