@@ -43,8 +43,7 @@ namespace banana {
     //% blockId=print_display
     //% block="print to display"
     //% shim=banana::print_display
-    export function printDisplay(): void {
+    export function printDisplay() {
         // Valid function for simulator
-        return;
     }
 }
