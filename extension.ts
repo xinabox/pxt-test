@@ -39,4 +39,12 @@ namespace banana {
         // Valid function for simulator
         return n * m;
     }
+
+    //% blockId=print_display
+    //% block="print to display"
+    //% shim=banana::print_display
+    export function printDisplay(): void {
+        // Valid function for simulator
+        return;
+    }
 }
