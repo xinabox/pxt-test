@@ -1,4 +1,7 @@
 #include "pxt.h"
+#include "MicroBit.h"
+
+MicroBitI2C uI2C;
 
 using namespace pxt;
 
@@ -7,6 +10,7 @@ namespace banana {
 
     //%
     int banana_multipler(int bananas) {
+
         return bananas * BANANA_MULTIPLIER;
     }
 
