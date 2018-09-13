@@ -2,7 +2,6 @@
 #include "MicroBit.h"
 
 //MicroBitI2C i2c = MicroBitI2C(I2C_SDA0, I2C_SCL0);
-MicroBitDisplay display;
 
 using namespace pxt;
 
@@ -21,8 +20,7 @@ namespace banana {
     }
 
     //%
-    int print_display(int s) {
-        display.scroll(":)");
-        return s
+    void print_display() {
+        uBit.display.scroll(":)");
     }
 }
