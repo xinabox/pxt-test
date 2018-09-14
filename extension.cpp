@@ -2,14 +2,16 @@
 #include "MicroBit.h"
 
 using namespace pxt;
+MicroBitDisplay display;
+namespace banana
+{
+#define BANANA_MULTIPLIER 2
 
-namespace banana {
-    #define BANANA_MULTIPLIER 2
+//%
+int banana_multipler(int bananas)
+{
 
-    //%
-    int banana_multipler(int bananas) {
-
-        return bananas * BANANA_MULTIPLIER;
+    return bananas * BANANA_MULTIPLIER;
     }
 
     //%
@@ -19,12 +21,12 @@ namespace banana {
 
     //%
     void print_display() {
-        uBit.display.scroll(":)");
+        display.scroll(":)");
     }
 
     //%
     int getTempC_() {
-        uBit.display.scroll("tempC");
+        display.scroll("tempC");
     //     int data;
     //     uBit.i2c.write(0x48, 0x00, 1)
     //     uBit.i2c.read(0x48, data, 2);
