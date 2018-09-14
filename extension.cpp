@@ -1,8 +1,6 @@
 #include "pxt.h"
 #include "MicroBit.h"
 
-MicroBitI2C(I2C_SDA0, I2C_SCL0);
-
 using namespace pxt;
 
 namespace banana {
