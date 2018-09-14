@@ -1,6 +1,5 @@
 #include "pxt.h"
 #include "MicroBitDisplay.h"
-#include "MicroBitI2C.h"
 #include "mbed.h"
 
 MicroBitDisplay leds;
