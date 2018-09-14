@@ -1,5 +1,6 @@
 #include "pxt.h"
-#include "MicroBit.h"
+//#include "MicroBit.h"
+#include "MicroBitDisplay.h"
 #include "mbed.h"
 
 MicroBitDisplay display1;
