@@ -23,7 +23,7 @@ namespace banana {
     }
 
     //%
-    int32_t getTempC_() {
+    int getTempC_() {
         uint16_t data;
         uBit.i2c.write(0x48, 0x00, 1)
         uBit.i2c.read(0x48, data, 2);

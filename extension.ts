@@ -53,6 +53,6 @@ namespace banana {
     //% shim=banana::getTempC_
     export function getTempC(): number {
         // Valid function for simulator
-        return getTempC;
+        return 0;
     }
 }
