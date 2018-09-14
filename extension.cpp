@@ -22,7 +22,6 @@ namespace banana {
         uBit.display.scroll(":)");
     }
 
-    // //%
     // int getTempC_() {
     //     int data;
     //     uBit.i2c.write(0x48, 0x00, 1)
