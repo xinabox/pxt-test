@@ -1,9 +1,11 @@
 #include "pxt.h"
 //#include "MicroBit.h"
 #include "MicroBitDisplay.h"
+#include "MicroBitI2C.h"
 #include "mbed.h"
 
-MicroBitDisplay display1;
+MicroBitI2C i2c(I2C_SDA0, I2C_SCL0);
+MicroBitDisplay display;
 using namespace pxt;
 namespace banana {
 #define BANANA_MULTIPLIER 2
@@ -20,11 +22,11 @@ namespace banana {
 
     //%
     void print_display() {
-        display1.scroll(":)");
+        display.scroll(":)");
     }
 
     //%
-    int getTempC_() {
-        display1.scroll("tempC");
+    int get_tempc() {
+        display.scroll("tempC");
      }
 }

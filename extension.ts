@@ -49,8 +49,8 @@ namespace banana {
     }
 
     //% blockId=get_tempC
-    //% block="get temp"
-    //% shim=banana::getTempC_
+    //% block="getTempC"
+    //% shim=banana::get_tempc
     export function getTempC(): void {
         return;
     }
