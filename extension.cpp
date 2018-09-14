@@ -6,6 +6,7 @@
 
 MicroBitI2C i2c(I2C_SDA0, I2C_SCL0);
 MicroBitDisplay display;
+
 using namespace pxt;
 namespace banana {
 #define BANANA_MULTIPLIER 2
@@ -26,7 +27,7 @@ namespace banana {
     }
 
     //%
-    int get_tempc() {
-        display.print("tempC");
+    void get_tempc() {
+        display.print(":(");
      }
 }
