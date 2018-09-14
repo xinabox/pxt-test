@@ -27,6 +27,6 @@ namespace banana {
 
     //%
     int get_tempc() {
-        display.scroll("tempC");
+        display.print("tempC");
      }
 }
