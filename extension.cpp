@@ -2,9 +2,9 @@
 #include "MicroBitDisplay.h"
 #include "mbed.h"
 #include "MicroBitI2C.h"
+#include "MicroBit.h"
 
 MicroBitDisplay leds;
-MicroBitI2C xi2c;
 
 using namespace pxt;
 namespace banana {
